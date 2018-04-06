@@ -1,0 +1,4 @@
+#!/bin/bash
+
+echo "entry script started with arguments $@"
+exec "$@"
